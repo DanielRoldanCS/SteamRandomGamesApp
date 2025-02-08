@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Game by ID</title>
+    <link rel="stylesheet" href="/css/search_id.css">
+    <script src="/js/search_id.js"></script>
+</head>
+<body>
+<h1>Search Game by ID</h1>
+<!-- Search input and button -->
+<input type="text" id="gameId" placeholder="Enter Game ID">
+<button onclick="searchGame()">Search</button>
+
+<!-- Table to display game information -->
+<table id="gameTable">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+    </tr>
+    </thead>
+    <tbody id="gameInfo"></tbody>
+</table>
+
+<!-- Error message -->
+<p id="errorMessage">Game not found. Please try another ID.</p>
+<button onclick="window.location.href='index'">Back to Home</button>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Game by Index</title>
+    <link rel="stylesheet" href="/css/search_index.css">
+    <script src="/js/search_index.js"></script>
+</head>
+<body>
+<h1>Search Game by Index</h1>
+
+<!-- Search input and button -->
+<input type="text" id="gameIndex" placeholder="Enter Game Index">
+<button onclick="searchGame()">Search</button>
+
+<!-- Table to display game information -->
+<table id="gameTable">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+    </tr>
+    </thead>
+    <tbody id="gameInfo"></tbody>
+</table>
+
+<!-- Error message -->
+<p id="errorMessage">Index is out of bounds. Please try another index.</p>
+
+<button onclick="window.location.href='index'">Back to Home</button>
+</body>
+</html>

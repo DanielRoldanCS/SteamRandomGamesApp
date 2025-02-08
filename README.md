@@ -2,7 +2,7 @@
 # Steam Random Games App
 
 ## Description
-The Steam Random Games App allows users to randomized one game, to fetch and search for games from the Steam API. The app provides both a REST API and a web interface to interact with the game data. The game list is fetched and stored locally, providing offline access to the data. Users can search for games by name, ID, or index, and view the details through a simple web interface.
+The Steam Random Games App allows users to randomized a game, fetch and search for games from the Steam API. The app provides both a REST API and a web interface to interact with the game data. The game list is fetched and stored locally, providing offline access to the data. Users can search for games by name, ID, or index, and view the details through a simple web interface.
 
 ## Features
 - Fetches a list of games from the Steam API.

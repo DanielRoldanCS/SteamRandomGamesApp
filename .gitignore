@@ -1,0 +1,49 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Log files
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# Java exceptions
+hs_err_pid*
+
+# IntelliJ IDEA specific
+out/
+
+# User-specific files
+*.swp
+*.swo
+
+# JetBrains
+.idea/.idea_modules/
+
+# Sensitive Configuration
+src/main/resources/application.properties
+
+# Ignore persistent storage
+ListOfSteamGames.json

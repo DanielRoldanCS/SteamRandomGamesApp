@@ -1,0 +1,11 @@
+# API Configuration
+api.url=https://api.steampowered.com/IStoreService/GetAppList/v1/
+api.key=[YOUR-API-KEY-HERE]
+
+# MySQL Database Configuration
+server.port=8080
+spring.datasource.url=jdbc:mysql://localhost:3306/[YOUR-DATABASE-NAME]
+spring.datasource.username=[YOUR-USERNAME]
+spring.datasource.password=[YOUR-PASSWORD]
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
